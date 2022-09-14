@@ -5,22 +5,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <title>Евклид Проектные системы</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preload" href="fonts/montserrat-black-webfont.woff2" as="font">
+    <link rel="preload" href="fonts/montserrat-black-webfont.woff" as="font">
+    <link rel="preload" href="fonts/montserrat-bold-webfont.woff2" as="font">
+    <link rel="preload" href="fonts/montserrat-bold-webfont.woff" as="font">
+    <link rel="preload" href="fonts/montserrat-medium-webfont.woff2" as="font">
+    <link rel="preload" href="fonts/montserrat-medium-webfont.woff" as="font">
+    <link rel="preload" href="fonts/montserrat-regular-webfont.woff2" as="font">
+    <link rel="preload" href="fonts/montserrat-regular-webfont.woff" as="font">
     <link rel="stylesheet" href="https://unpkg.com/swiper@6/swiper-bundle.min.css" />
-    <script src="https://unpkg.com/swiper@6/swiper-bundle.min.js"></script>
-    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <script>
-        $(function() {
-            $("#accordion").accordion({
-                collapsible: true
-            });
-        });
-    </script>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -66,17 +61,14 @@
                     <!-- Additional required wrapper -->
                     <div class="swiper-wrapper">
                         <!-- Slides -->
-                        <div class="swiper-slide" style="background-image:url(img/hero-1920.png);" aria-role="img"></div>
-                        <div class="swiper-slide" style="background-image:url(img/pic_1.png);" aria-role="img">
+                        <div class="swiper-slide" style="background-image:url(img/hero-1920.webp);" aria-role="img"></div>
+                        <div class="swiper-slide" style="background-image:url(img/pic_1.webp);" aria-role="img">
                         </div>
-                        <div class="swiper-slide" style="background-image:url(img/pic_2.png);" aria-role="img">
+                        <div class="swiper-slide" style="background-image:url(img/pic_2.webp);" aria-role="img">
                         </div> ...
                     </div>
                     <!-- If we need pagination -->
                     <div class="swiper-pagination"></div>
-                    <!-- If we need navigation buttons
-  <div class="swiper-button-prev"></div>
-  <div class="swiper-button-next"></div> -->
                     <div class="section-hero__content">
                         <h1 class="section-hero__heading-h1">Проектные решения любой сложности</h1>
                         <h3 class="section-hero__heading-h2">Есть над чем задуматься: базовые сценарии поведения пользователей и по сей день остаются уделом проектантов</h3>
@@ -91,8 +83,7 @@
                 <p class="section-about__paragraph">Также как перспективное планирование создаёт необходимость включения в производственный план целого ряда внеочередных мероприятий с учётом комплекса экспериментов, поражающих по своей масштабности и грандиозности. А также диаграммы связей
                     могут быть описаны максимально подробно. Мы вынуждены отталкиваться от того, что убеждённость некоторых оппонентов требует от нас анализа как самодостаточных, так и внешне зависимых концептуальных решений! Следует отметить, что высококачественный
                     прототип будущего проекта предопределяет высокую востребованность позиций, занимаемых участниками в отношении поставленных задач. Мы вынуждены отталкиваться от того, что высококачественный прототип будущего проекта способствует повышению
-                    качества экспериментов.
-                </p>
+                    качества экспериментов. </p>
                 <div class="section-about__columns">
                     <div class="section-about__left">
                         <div class="section-about__left-content">
@@ -158,7 +149,7 @@
                     <h3 class="section-work__h3">Инспектируем все этапы работ</h3>
                     <p class="section-work__left-paragraph section-work__left-paragraph-tab4">Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: высококачественный прототип будущего проекта напрямую зависит от дальнейших направлений развития. Разнообразный и богатый опыт
                         говорит нам, что новая модель организационной деятельности говорит о возможностях системы массового участия. Принимая во внимание показатели успешности, постоянное информационно- пропагандистское обеспечение нашей деятельности
-                        позволяет.</p>
+                        позволяет. </p>
                     <div class="section-work__btn">
                         <button class="section-work__btn1" aria-label="Подробнее">Подробнее</button>
                         <button class="section-work__btn2" aria-label="Договор">Договор</button>
@@ -210,8 +201,7 @@
                     </li>
                     <li class="section-questions__item">
                         <div class="section-questions__list-heading">
-                            <h3 class="section-questions__h3">Я выбираю между разными компаниями. В чём ваше отличие?
-                            </h3>
+                            <h3 class="section-questions__h3">Я выбираю между разными компаниями. В чём ваше отличие? </h3>
                             <svg width="50" height="50" viewbox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" class="section-questions__svg">
                 <ellipse cx="25" cy="25" rx="25" ry="25" fill="#ECECEC" />
                 <path fill-rule="evenodd" clip-rule="evenodd"
@@ -249,8 +239,7 @@
                     </li>
                     <li class="section-questions__item">
                         <div class="section-questions__list-heading">
-                            <h3 class="section-questions__h3">Могу ли я вернуть деньги на каком-либо из этапов работ?
-                            </h3>
+                            <h3 class="section-questions__h3">Могу ли я вернуть деньги на каком-либо из этапов работ? </h3>
                             <svg width="50" height="50" viewbox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" class="section-questions__svg">
                 <ellipse cx="25" cy="25" rx="25" ry="25" fill="#ECECEC" />
                 <path fill-rule="evenodd" clip-rule="evenodd"
@@ -343,6 +332,19 @@
             </div>
         </footer>
     </main>
+    <script src="https://unpkg.com/swiper@6/swiper-bundle.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/lazyload.min.js"></script>
+    <script>
+        $(function() {
+            $("#accordion").accordion({
+                collapsible: true
+            });
+        });
+
+        lazyload();
+    </script>
     <script src="js/index.js"></script>
 </body>
 
